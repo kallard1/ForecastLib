@@ -1,0 +1,19 @@
+{
+  "name": "kallard/forecast-lib",
+  "description": "Get Forecast from Weather API",
+  "type": "library",
+  "authors": [
+    {
+      "name": "kallard",
+      "email": "contact@allard-kevin.fr"
+    }
+  ],
+  "require": {
+    "symfony/serializer": "^4.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Forecast\\": "lib/"
+    }
+  }
+}

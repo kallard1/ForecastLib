@@ -1,0 +1,91 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family : Montserrat, sans-serif;
+}
+
+.forecast-container {
+    border        : 1px solid;
+    display       : flex;
+    width         : 40vw;
+    height        : 10vh;
+    border-radius : 60px;
+}
+
+.forecast-icon {
+    margin-left : 2.2vw;
+    height      : 100%;
+    width       : 5vw;
+}
+
+.forecast-icon > .icon {
+
+    width: 100%;
+    height : calc(100% - 40px);
+}
+
+.forecast-icon > .icon > img {
+    margin: 0 auto;
+    width  : 60px;
+    height : 60px;
+}
+
+.forecast-icon > .description {
+    text-align : center;
+}
+
+.forecast-data {
+    padding-left : 1.5vw;
+    width        : calc(100% - 9.7vw);
+    height       : 100%;
+}
+
+.forecast-data > .forecast-city {
+    font-size   : 2em;
+    font-weight : bold;
+    color       : #03A9F4;
+}
+
+.forecast-values {
+    margin-top : 1vh;
+}
+
+span.temperature-badge,
+span.pressure-badge,
+span.humidity-badge {
+    padding       : 5px;
+    text-align    : center;
+    color         : white;
+    font-weight   : bold;
+    border-radius : 10px;
+}
+
+span.temperature-badge.red {
+    background-color : #f43d00;
+}
+
+span.pressure-badge.gray {
+    background-color : #7c7c7c;
+}
+
+span.temperature-badge.green {
+    background-color : #00f453;
+}
+
+span.temperature-badge.blue,
+span.humidity-badge.blue {
+    background-color : #03A9F4;
+}
+
+div.container {
+    display: flex;
+}
+
+div.forecast-error {
+    margin: 0 auto;
+    text-transform: uppercase;
+    color : red;
+}
